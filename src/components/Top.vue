@@ -1,6 +1,5 @@
 <template>
     <div id="app">
-  <v-app>
     <v-app-bar
       app
       color="white"
@@ -23,13 +22,13 @@
           Bonita Arts.
       </v-toolbar-title>
     </v-app-bar>
-    <v-content>
+
+    <v-content class="py-0">
       <section id="hero">
-          <v-spacer></v-spacer>
         <v-row no-gutters>
           <v-img
-            :min-height="'calc(0vh - ' + $vuetify.application.top + 'px)'"
-            src="../assets/seaGirl.jpeg"
+            :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
+            src="../assets/Top.png"
           ><!--:min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"-->
             <v-theme-provider dark>
               <v-container fill-height>
@@ -153,67 +152,6 @@
         <div class="py-12"></div>
       </section>
 
-      <!--section
-        id="features"
-        class="grey lighten-3"
-      >
-        <div class="py-5"></div>
-
-        <v-container class="text-center">
-          <h2 class="display-1 font-weight-bold mb-3">MENU</h2>
-
-          <v-responsive
-            class="mx-auto mb-12"
-            width="46"
-          >
-            <v-divider class="mb-1"></v-divider>
-
-            <v-divider></v-divider>
-          </v-responsive>
-
-          <v-row>
-            <v-col
-              v-for="({ icon, title, text }, i) in features"
-              :key="i"
-              cols="12"
-              md="4"
-            >
-              <v-card
-                class="py-12 px-4"
-                color="grey lighten-5"
-                flat
-              >
-                <v-theme-provider dark>
-                  <div>
-                    <v-avatar
-                      color="primary"
-                      size="88"
-                    >
-                      <v-icon
-                        large
-                        v-text="icon"
-                      ></v-icon>
-                    </v-avatar>
-                  </div>
-                </v-theme-provider>
-
-                <v-card-title
-                  class="justify-center font-weight-black text-uppercase"
-                  v-text="title"
-                ></v-card-title>
-
-                <v-card-text
-                  class="subtitle-1"
-                  v-text="text"
-                >
-                </v-card-text>
-              </v-card>
-            </v-col>
-          </v-row>
-        </v-container>
-
-        <div class="py-5"></div>
-      </section-->
 
 <section
         id="menu"
@@ -386,59 +324,6 @@
           </v-container>
         </v-parallax>
       </section>
-      
-
-      <!--section id="blog">
-        <div class="py-12"></div>
-
-        <v-container>
-          <h2 class="display-2 font-weight-bold mb-3 text-uppercase text-center">Blog</h2>
-
-          <v-responsive
-            class="mx-auto mb-12"
-            width="56"
-          >
-            <v-divider class="mb-1"></v-divider>
-
-            <v-divider></v-divider>
-          </v-responsive>
-
-          <v-row>
-            <v-col
-              v-for="({ src, text, title }, i) in articles"
-              :key="i"
-              cols="12"
-              md="4"
-            >
-              <v-img
-                :src="src"
-                class="mb-4"
-                height="275"
-                max-width="100%"
-              ></v-img>
-
-              <h3
-                class="font-weight-black mb-4 text-uppercase"
-                v-text="title"
-              ></h3>
-
-              <div
-                class="title font-weight-light mb-5"
-                v-text="text"
-              ></div>
-
-              <v-btn
-                class="ml-n4 font-weight-black"
-                text
-              >
-                Continue Reading
-              </v-btn>
-            </v-col>
-          </v-row>
-        </v-container>
-
-        <div class="py-12"></div>
-      </section-->
 
       <v-sheet
         id="contact"
@@ -462,51 +347,6 @@
           </v-responsive>
 
           <v-theme-provider light>
-            <!--v-row>
-              <v-col cols="12">
-                <v-text-field
-                  flat
-                  label="Name*"
-                  solo
-                ></v-text-field>
-              </v-col>
-
-              <v-col cols="12">
-                <v-text-field
-                  flat
-                  label="Email*"
-                  solo
-                ></v-text-field>
-              </v-col>
-
-              <v-col cols="12">
-                <v-text-field
-                  flat
-                  label="Subject*"
-                  solo
-                ></v-text-field>
-              </v-col>
-
-              <v-col cols="12">
-                <v-textarea
-                  flat
-                  label="Message*"
-                  solo
-                ></v-textarea>
-              </v-col>
-
-              <v-col
-                class="mx-auto"
-                cols="auto"
-              >
-                <v-btn
-                  color="accent"
-                  x-large
-                >
-                  Submit
-                </v-btn>
-              </v-col>
-            </v-row-->
           </v-theme-provider>
           <v-col
               cols="12"
@@ -542,7 +382,6 @@
         &copy; {{ (new Date()).getFullYear() }} - jabelic
       </div>
     </v-footer>
-  </v-app>
  </div>
 </template>
 
@@ -652,4 +491,8 @@ export default{
 </script>
 
 <style>
+* { 
+    margin: 0px; 
+    padding: 0px; 
+}
 </style>
