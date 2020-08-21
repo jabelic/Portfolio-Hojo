@@ -1,13 +1,5 @@
 <template>
-    <div id="app">
-
-    <appbar></appbar>
-
-    <v-content class="py-0">
-      <hero></hero>
-      <aboutme></aboutme>
-      <menu></menu>
-      <section
+    <section
         id="menu"
         class="grey lighten-3"
       >
@@ -117,94 +109,14 @@
 
         <div class="py-5"></div>
       </section>
-
-
-<!-- Menu gray barはここまで -->
-      <section
-        id="description"
-        class="black white--text text--lighten-3"
-      >
-        <div class="py-5"></div>
-
-        <v-container class="text-center">
-          <h2 class="display-1 font-weight-bold mb-3">ご注文に際して</h2>
-
-          <v-responsive
-            class="mx-auto mb-12"
-            width="46"
-          >
-            <v-divider class="mb-1"></v-divider>
-            <v-divider></v-divider>
-          </v-responsive>
-
-          <v-row>
-            <v-col>人物追加、複雑な服装や小物・背景など、ご依頼の内容によっては別途お見積もりさせてただく可能性があります。予め御了承下さい。</v-col>
-          </v-row>
-          <v-card>
-    </v-card>
-        </v-container>
-
-        <div class="py-5"></div>
-      </section>
-
-      <stats></stats>
-      <orderform></orderform>
-    </v-content>
-    <v-footer
-      class="justify-center"
-      color="#292929"
-      height="50"
-    >
-      <div class="subtitle-2 font-weight-light grey--text text--lighten-1 text-center">
-        &copy; {{ (new Date()).getFullYear() }} - jabelic
-      </div>
-    </v-footer>
- </div>
 </template>
 
-<script>
-import appbar from './Appbar'
-import hero from './Hero'
-import aboutme from './Aboutme'
-import menu from './Menu'
-import stats from './Stats'
-import orderform from './OrderForm'
 
-export default{
-    components: {
-      'appbar': appbar,
-      'hero': hero,
-      'aboutme': aboutme,
-      'menu': menu,
-      'stats': stats,
-      'orderform': orderform,
-    },
-    data () {
-      return {
-        /*features: [
-          {
-            icon: 'mdi-account-box-outline',
-            title: 'SNS icon',
-            text: '複雑な服装・小物の描写など、ご依頼によっては別料金を頂く場合がございます。ご購入前にメッセージから要相談でお願いいたします。',
-          },
-          {
-            icon: 'mdi-picture-in-picture-bottom-right',
-            title: '一枚絵',
-            text: '人物は1人で',
-          },
-          {
-            icon: 'mdi-shield-outline',
-            title: 'その他ポスターキャラクターなど',
-            text: '云々カンヌん',
-          },
-        ],*/
-        stats: [
-          ['7日待ち', '受付状況'],
-          ['15日+', 'ラフ完成まで'],
-          ['40日+', '納品まで'],
-          ['62日+', 'トータル期間'],
-        ],
-        headersSns:[
+<script>
+export default {
+    data(){
+        return {
+            headersSns:[
             {
             text: '',
             align: 'start',
@@ -260,14 +172,7 @@ export default{
             data: '別途料金'
           }
         ]
-      }
+        }
     }
-  }
-</script>
-
-<style>
-* { 
-    margin: 0px; 
-    padding: 0px; 
 }
-</style>
+</script>
