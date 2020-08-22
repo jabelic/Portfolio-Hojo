@@ -36,7 +36,8 @@
             large
             class="blue"
           >
-            <span class="title white--text text--darken-9 font-weight-bold">
+            <span class="white--text text--darken-9 font-weight-bold" 
+                  style="font-size:20px;">
               ご注文はこちらから。
             </span>
           </v-btn>

@@ -14,7 +14,8 @@
               >
                 <div class="text-center">
                   <div
-                    class="title font-weight-regular text-uppercase"
+                    class=""
+                    style="font-size:20px;"
                     v-text="title"
                   ></div>
                   <div

@@ -4,7 +4,7 @@
           <v-img
             :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
             src="../assets/Top.png"
-          ><!--:min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"-->
+          >
             <v-theme-provider dark>
               <v-container fill-height>
                 <v-row
@@ -17,22 +17,24 @@
                     cols="12"
                     tag="h1"
                   >
+                    <p>
                     <span
-                    :class="[$vuetify.breakpoint.smAndDown ? 'subtitle-1' : 'subtitle-1']"
-                      class="font-weight-light"
+                      style="font-weight:bold;"
+                      class=""
                     >
                     女の子のイラスト承ります。
                     </span>
 
+
                     <br>
 
                     <span
-                      :class="[$vuetify.breakpoint.smAndDown ? 'display-3': 'display-4']"
-                      class="font-weight-black"
+                      class=""
+                      style="font-weight:bold; font-size:70px;"
                     >
-                      Bonita Arts.
+                      絵画工房 風鈴
                     </span>
-
+                    </p>
                   </v-col>
 
                   <v-btn
@@ -50,3 +52,15 @@
         </v-row>
       </section>
 </template>
+
+<style>
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+JP");
+#app {
+/* Google fontsで導入したいfontsからfont-familyを取ってくる */
+  font-family: 'Noto Serif JP', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+</style>

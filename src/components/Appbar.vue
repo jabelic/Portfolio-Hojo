@@ -17,12 +17,9 @@
         ></v-img>
       </v-avatar>
 
-      <v-toolbar-title class="font-weight-black headline" >
-          Bonita Arts.
+      <v-toolbar-title style="font-weight:bold;">
+          絵画工房 風鈴
       </v-toolbar-title>
     </v-app-bar>
 </template>
 
-<script>
-
-</script>
