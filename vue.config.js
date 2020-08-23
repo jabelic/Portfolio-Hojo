@@ -4,5 +4,5 @@ module.exports = {
   ],
   configureWebpack: {
   },
-  publicPath: './public'
+  publicPath: './'
 }
