@@ -13,7 +13,7 @@ module.exports = {
   ],
   configureWebpack: {
     plugins: [
-      new SitemapPlugin('https://mywebsite.com', paths, {
+      new SitemapPlugin('https://utsusemi.netlify.app', paths, {
           filename: 'sitemap.xml',
           lastmod: true,
           changefreq: 'hourly',
