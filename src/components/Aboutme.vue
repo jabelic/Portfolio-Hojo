@@ -34,6 +34,7 @@
             href="https://www.pixiv.net/en/users/57734105"
             outlined
             large
+            target="_blank"
           >
             <span class="grey--text text--darken-1 font-weight-bold">
               Pixiv
@@ -45,6 +46,7 @@
             href="https://twitter.com/ohanatm_bba"
             outlined
             large
+            target="_blank"
           >
             <span class="grey--text text--darken-1 font-weight-bold">
               Twitter
@@ -56,6 +58,7 @@
             href="https://skima.jp/profile?id=143434"
             outlined
             large
+            target="_blank"
           >
             <span class="grey--text text--darken-1 font-weight-bold">
               skima
