@@ -32,7 +32,7 @@
                       class=""
                       style="font-weight:bold; font-size:70px;"
                     >
-                      絵画工房 風鈴
+                      絵画工房 空蝉
                     </span>
                     </p>
                   </v-col>

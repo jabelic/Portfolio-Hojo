@@ -6,7 +6,7 @@
     <v-content class="py-0">
       <hero></hero>
       <aboutme></aboutme>
-      <menu></menu>
+
       <section
         id="menu"
         class="grey lighten-3"
@@ -55,9 +55,8 @@
                 ></v-card-title>
 
                 <v-card-text
-                  class="subtitle-1"
-                  v-text="'使用許諾：3000円〜\n著作権譲渡：10000円〜'"
-                  style="white-space: pre-wrap;"
+                  v-text="'使用許諾：5000円〜\n著作権譲渡：12000円〜'"
+                  style="white-space: pre-wrap; font-size: 17px;"
                 >
                 </v-card-text>
                 <v-data-table
@@ -98,9 +97,8 @@
                 ></v-card-title>
 
                 <v-card-text
-                  class="subtitle-1"
-                  v-text="'使用許諾：5000円〜\n著作権譲渡：15000円〜'"
-                  style="white-space: pre-wrap;"
+                  v-text="'使用許諾：7000円〜\n著作権譲渡：17000円〜'"
+                  style="white-space: pre-wrap; font-size: 17px;"
                 >
                 </v-card-text>
                 <v-data-table
@@ -127,7 +125,7 @@
         <div class="py-5"></div>
 
         <v-container class="text-center">
-          <h2 class="display-1 font-weight-bold mb-3">ご注文に際して</h2>
+          <h2 class="font-weight-bold mb-3" style="font-size: 30px;">ご注文に際して</h2>
 
           <v-responsive
             class="mx-auto mb-12"
@@ -166,7 +164,6 @@
 import appbar from './Appbar'
 import hero from './Hero'
 import aboutme from './Aboutme'
-import menu from './Menu'
 import stats from './Stats'
 import orderform from './OrderForm'
 
@@ -175,7 +172,6 @@ export default{
       'appbar': appbar,
       'hero': hero,
       'aboutme': aboutme,
-      'menu': menu,
       'stats': stats,
       'orderform': orderform,
     },
