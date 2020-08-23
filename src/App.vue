@@ -14,6 +14,10 @@ export default {
   data: () => ({
     //
   }),
+  mounted() {
+            document.title = `絵画工房 空蝉`
+            document.querySelector('meta[name="description"]').setAttribute('content', '絵画工房 空蝉')
+  },
 };
 </script>
 
