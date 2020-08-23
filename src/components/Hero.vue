@@ -17,7 +17,7 @@
                     cols="12"
                     tag="h1"
                   >
-                    <p>
+                    <p class="haikei">
                     <span
                       style="font-weight:bold;"
                       class=""
@@ -62,5 +62,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.haikei{
+  background: rgba(104, 232, 255, 0.3);
 }
 </style>
