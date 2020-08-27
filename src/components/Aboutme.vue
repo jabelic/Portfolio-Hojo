@@ -15,7 +15,7 @@
           </v-responsive>
 
           <v-responsive
-            class="mx-auto title font-weight-light mb-8"
+            class="mx-auto subtitle font-weight-light mb-8"
             max-width="720"
           >
           女の子のイラストを中心に描いています。
@@ -28,7 +28,11 @@
             <v-img src="../assets/icon.png"></v-img>
           </v-avatar>
 
-          <div></div>
+          <v-responsive
+          style="font-size: 30px;"
+          class="mx-auto font-weight-light mb-6"
+          max-width="360">南條　なぎ</v-responsive>
+
           <v-btn
             color="grey"
             href="https://www.pixiv.net/en/users/57734105"
