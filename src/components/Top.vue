@@ -194,12 +194,7 @@ export default{
             text: '云々カンヌん',
           },
         ],*/
-        stats: [
-          ['7日待ち', '受付状況'],
-          ['15日+', 'ラフ完成まで'],
-          ['40日+', '納品まで'],
-          ['62日+', 'トータル期間'],
-        ],
+        
         headersSns:[
             {
             text: '',
@@ -262,8 +257,8 @@ export default{
 </script>
 
 <style>
-* { 
-    margin: 0px; 
-    padding: 0px; 
+* {
+    margin: 0px;
+    padding: 0px;
 }
 </style>
