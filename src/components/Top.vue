@@ -140,10 +140,60 @@
           </v-row>
           <v-card>
     </v-card>
-        </v-container>
 
+</v-container>
         <div class="py-5"></div>
       </section>
+
+      <section
+        id="description"
+        class="gray black--text text--lighten-3"
+      >
+        <div class="py-5"></div>
+
+      <v-container class="text-center">
+        <h2 class="font-weight-bold mb-3" style="font-size: 30px;">ご注文の流れ</h2>
+
+        <v-responsive
+          class="mx-auto mb-12"
+          width="46"
+        >
+          <v-divider class="mb-1"></v-divider>
+          <v-divider></v-divider>
+        </v-responsive>
+        <v-card
+        class="mx-auto"
+        max-width="500"
+        tile>
+        <v-row style="margin:5px;">
+          <v-col>
+            <v-list flat>
+          <v-list-item-group >
+            <v-list-item-content>
+          1. 下記注文フォームにて絵の詳細の情報入力
+          </v-list-item-content><v-list-item-content>
+          2. メールにてお見積もり
+        </v-list-item-content><v-list-item-content>
+          3. ラフ制作開始
+          </v-list-item-content><v-list-item-content>
+          4. ラフご確認後、ご要望等のご相談（メール等）
+          </v-list-item-content><v-list-item-content>
+          5. ご入金（PayPay等）
+          </v-list-item-content><v-list-item-content>
+          6. 本制作
+          </v-list-item-content><v-list-item-content>
+          7. 納品
+        </v-list-item-content>
+      </v-list-item-group>
+    </v-list >
+        </v-col>
+        </v-row>
+
+  </v-card>
+      </v-container>
+        <div class="py-5"></div>
+        </section>
+
 
       <stats></stats>
       <orderform></orderform>
@@ -194,7 +244,7 @@ export default{
             text: '云々カンヌん',
           },
         ],*/
-        
+
         headersSns:[
             {
             text: '',
