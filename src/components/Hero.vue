@@ -3,7 +3,7 @@
         <v-row no-gutters>
           <v-img
             :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
-            src="../assets/Top.png"
+            src="../assets/hero.png"
           >
             <v-theme-provider dark>
               <v-container fill-height>
