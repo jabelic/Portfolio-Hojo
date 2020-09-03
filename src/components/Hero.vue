@@ -9,11 +9,11 @@
               <v-container fill-height>
                 <v-row
                   align="center"
-                  class="white--text mx-auto"
+                  class="gray--text mx-auto"
                   justify="center"
                 >
                   <v-col
-                    class="white--text text-center"
+                    class="red--text text-center text--lighten-5"
                     cols="12"
                     tag="h1"
                   >
@@ -62,6 +62,6 @@
   color: #2c3e50;
 }
 .haikei{
-  background: rgba(104, 232, 255, 0.3);
+  background: rgba(14, 02, 55, 0.456);
 }
 </style>
