@@ -33,6 +33,16 @@
                       絵画工房 空蝉
                     </span>
                     </p>
+
+                    <p class="haikei">
+                      <span
+                      class="red--text text-center text--lighten-1"
+                      cols="12"
+                      tag="h4"
+                      style="font-size:18px;">
+                      ご注文後にこちらからメールをお送りさせていただいております。
+                      迷惑メールに振り分けられている可能性がある為、
+                      そちらの方のご確認をお願い致します。</span></p>
                   </v-col>
 
                   <v-btn
