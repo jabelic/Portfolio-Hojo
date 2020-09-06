@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.2c27993e43ea1fe8443deecf3843b8c3.js"
+  "precache-manifest.0d20736cae2531c2617fbb53380bf7b7.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "utsusemi"});
