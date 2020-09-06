@@ -13,11 +13,11 @@
                   justify="center"
                 >
                   <v-col
-                    class="red--text text-center text--lighten-5"
+                    class="white--text text-center text--lighten-5"
                     cols="12"
                     tag="h1"
                   >
-                    <p class="haikei">
+                    <p class="top-haikei">
                     <span
                       style="font-weight:bold;"
                       class=""
@@ -34,9 +34,9 @@
                     </span>
                     </p>
 
-                    <p class="haikei">
+                    <p class="top-haikei">
                       <span
-                      class="red--text text-center text--lighten-1"
+                      class="red--text text-center text--lighten-5"
                       cols="12"
                       tag="h4"
                       style="font-size:18px;">
@@ -70,8 +70,5 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-.haikei{
-  background: rgba(14, 02, 55, 0.456);
 }
 </style>

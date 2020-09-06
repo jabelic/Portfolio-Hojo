@@ -316,4 +316,7 @@ export default{
 .haikei{
   background: rgba(240, 192, 5, 0.25);
 }
+.top-haikei{
+  background: rgba(100, 100, 230, 0.5);
+}
 </style>
