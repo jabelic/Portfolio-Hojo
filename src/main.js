@@ -5,6 +5,7 @@ import store from './store'
 import './registerServiceWorker'
 import vuetify from './plugins/vuetify';
 import VueAnalytics from 'vue-analytics';
+import VueScrollTo from 'vue-scrollto'
 
 Vue.config.productionTip = false
 
@@ -20,3 +21,7 @@ Vue.use(VueAnalytics, {
   id: 'UA-177238874-1',
   router
 });
+Vue.use(VueScrollTo, {
+  duration: 500,
+  easing: "ease"
+})

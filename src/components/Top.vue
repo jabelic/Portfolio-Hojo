@@ -53,12 +53,13 @@
                   class="justify-center font-weight-black text-uppercase"
                   v-text="'SNS icon'"
                 ></v-card-title>
-
+                <div class="haikei">
                 <v-card-text
                   v-text="'使用許諾：5000円〜\n著作権譲渡：12000円〜'"
-                  style="white-space: pre-wrap; font-size: 17px;"
+                  style="white-space: pre-wrap; font-size: 17px; font-weight: 600;"
                 >
                 </v-card-text>
+                </div>
                 <v-data-table
             :headers="headersSns"
             :items="dessertsSns"
@@ -95,12 +96,13 @@
                   class="justify-center font-weight-black text-uppercase"
                   v-text="'一枚絵'"
                 ></v-card-title>
-
+                <div class="haikei">
                 <v-card-text
                   v-text="'使用許諾：7000円〜\n著作権譲渡：17000円〜'"
-                  style="white-space: pre-wrap; font-size: 17px;"
+                  style="white-space: pre-wrap; font-size: 17px; font-weight: 600;"
                 >
                 </v-card-text>
+                </div>
                 <v-data-table
             :headers="headersPic"
             :items="dessertsPic"
@@ -146,7 +148,7 @@
       </section>
 
       <section
-        id="description"
+        id="procedure"
         class="gray black--text text--lighten-3"
       >
         <div class="py-5"></div>
@@ -310,5 +312,8 @@ export default{
 * {
     margin: 0px;
     padding: 0px;
+}
+.haikei{
+  background: rgba(240, 192, 5, 0.25);
 }
 </style>
