@@ -1,4 +1,12 @@
-# hojo
+# portfolio site
+
+[絵画工房 空蝉](https://utsusemi.netlify.app)
+
+絵師さんのポートフォリオサイトと注文システムを構築した。
+
+受注フォームはGoogleForm を活用、GASでTrelloに自動でカードが作られるようにしている。
+
+
 
 ## Project setup
 ```
