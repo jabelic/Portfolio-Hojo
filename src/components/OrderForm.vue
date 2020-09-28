@@ -29,16 +29,22 @@
               class="white--text mx-auto"
               justify="center"
             >
-          <v-btn
+          <!--v-btn
             color="grey"
             href="https://forms.gle/z9mYDn11mS1zo6HE9"
+            outlined
+            large
+            class="blue"
+          -->
+          <v-btn
+            color="grey"
             outlined
             large
             class="blue"
           >
             <span class="white--text text--darken-9 font-weight-bold" 
                   style="font-size:20px;">
-              ご注文はこちらから。
+              受注停止中...
             </span>
           </v-btn>
           </v-col>
