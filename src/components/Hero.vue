@@ -33,7 +33,8 @@
                       絵画工房 空蝉
                     </span>
                     </p>
-
+                  </v-col>
+                  <v-col cols="12">
                     <p class="top-haikei">
                       <span
                       class="red--text text-center text--lighten-5"
@@ -44,7 +45,7 @@
                       迷惑メールに振り分けられている可能性がある為、
                       そちらの方のご確認をお願い致します。</span></p>
                   </v-col>
-
+                  <v-col>
                   <v-btn
                     class="align-self-end"
                     fab
@@ -53,6 +54,7 @@
                   >
                     <v-icon>mdi-chevron-double-down</v-icon>
                   </v-btn>
+                  </v-col>
                 </v-row>
               </v-container>
             </v-theme-provider>
