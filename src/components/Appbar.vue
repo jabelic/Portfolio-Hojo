@@ -97,9 +97,9 @@ export default {
       }
     },
     methods: {
-    scroll() {
-      cancelScroll = this.$scrollTo(element, duration, options)
-    }
+      scroll() {
+        cancelScroll = this.$scrollTo(element, duration, options)
+      }
     }
   }
 </script>

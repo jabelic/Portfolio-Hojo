@@ -7,8 +7,10 @@
 </template>
 
 <script>
+import vdialog from './components/Vdialog.vue';
 
 export default {
+  components: { vdialog },
   name: 'App',
   head:{ 
     link(){
@@ -19,12 +21,13 @@ export default {
     }
   },
   data: () => ({
-    //
+    isDialogOpened: true
   }),
   mounted() {
-            document.title = `絵画工房 空蝉`;
-            document.querySelector('meta[name="description"]').setAttribute('content', '絵画工房 空蝉');
-            this.$ga.page('/');
+    document.title = `絵画工房 空蝉`;
+    document.querySelector('meta[name="description"]').setAttribute('content', '絵画工房 空蝉');
+    this.$ga.page('/');
+    this.isDialogOpened = true
   },
 };
 </script>
