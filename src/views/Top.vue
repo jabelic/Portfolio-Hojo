@@ -213,11 +213,11 @@
 </template>
 
 <script>
-import appbar from './Appbar'
-import hero from './Hero'
-import aboutme from './Aboutme'
-import stats from './Stats'
-import orderform from './OrderForm'
+import appbar from '../components/Appbar'
+import hero from '../components/Hero'
+import aboutme from '../components/Aboutme'
+import stats from '../components/Stats'
+import orderform from '../components/OrderForm'
 
 export default{
     components: {
