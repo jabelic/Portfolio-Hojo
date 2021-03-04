@@ -33,6 +33,8 @@
             v-text="item.description"
           >
           </v-card-text>
+          連絡先：hojo.illust [at] gmail.com
+          <br>
           南條なぎ
         </v-col>
         <v-spacer />
