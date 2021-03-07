@@ -179,24 +179,6 @@ export default {
   },
   data() {
     return {
-      /*features: [
-          {
-            icon: 'mdi-account-box-outline',
-            title: 'SNS icon',
-            text: '複雑な服装・小物の描写など、ご依頼によっては別料金を頂く場合がございます。ご購入前にメッセージから要相談でお願いいたします。',
-          },
-          {
-            icon: 'mdi-picture-in-picture-bottom-right',
-            title: '一枚絵',
-            text: '人物は1人で',
-          },
-          {
-            icon: 'mdi-shield-outline',
-            title: 'その他ポスターキャラクターなど',
-            text: '云々カンヌん',
-          },
-        ],*/
-
       headersSns: [
         {
           text: "",

@@ -65,25 +65,9 @@ export default {
     };
   },
   mounted() {
-    console.debug(this.isDialogOpened);
+    // console.debug(this.isDialogOpened);
   },
   methods: {},
-  computed: {
-    height() {
-      switch (this.$vuetify.breakpoint.name) {
-        case "xs":
-          return 220;
-        case "sm":
-          return 400;
-        case "md":
-          return 500;
-        case "lg":
-          return 600;
-        case "xl":
-          return 800;
-      }
-    },
-  },
 };
 </script>
 
